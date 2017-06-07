@@ -81,3 +81,5 @@ var template =
     <h1> Hello </h1>
     <p> This is a great website </p>
 </div>`
+
+// Multi-line string is a huge help when we want to put string in our code that are a little long, like 'templates'.
