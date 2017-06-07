@@ -52,3 +52,32 @@ var michael =
         });
     }
 };
+
+
+
+
+
+// -- TEMPLATE STRINGS --
+
+// Two great features of "Template Strings" are:
+// 1. Variables within strings ( without the need to concatenate with '+' )
+// 2. Multi-line strings
+
+// Variables in strings Example
+var firstName = "Ron-Michael";
+var lastName = "Dionisio";
+
+// interpolate a string
+var greeting = `Hello ${ firstName } ${ lastName }`;
+
+console.log(greeting);
+
+// Note: to use string interpolation you must enclose your string in 'backticks' not single or double qoutes.
+
+
+// Multi-line strings
+var template = 
+`<div>
+    <h1> Hello </h1>
+    <p> This is a great website </p>
+</div>`
